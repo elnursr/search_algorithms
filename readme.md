@@ -1,11 +1,11 @@
-# **Searching Algorithms (Axtarish Alqoritmleri)**
+> # **Searching Algorithms (Axtarish Alqoritmleri)**
 ---
 ### 3 nov axtarish alqoritmi movcuddur ve bunlar ashagidakilardir:
 1. Linear search (Xetti axtarish)
 2. Binary search (Ikili axtarish)
 3. Jump search (Suretli axtarish)
 ---
-## Adindan melum oldugu kimi *linear search* (xetti axtarish) hedef simvol-u xetti shekilde axtarar. Bunun uchun de *linear search*-un alqoritmik ardicilligi ashagidaki kimi olur:
+## Linear search: Adindan melum oldugu kimi *linear search* (xetti axtarish) hedef simvol-u xetti shekilde axtarar. Bunun uchun de *linear search*-un alqoritmik ardicilligi ashagidaki kimi olur:
 
 1. Bashdan sona
    * array-in ve list-in ilk elementinden bashlayir.
@@ -18,7 +18,7 @@
    * element tapilana ve eyni zamanda array-in son elementine gedib chatana qeder prossesi davam ederek tekrarlamaq
 5. Neticeni qaytarmaq
    * eger element tapilsa hemin elementin index-ni qaytaririq. tapilmadigi halda ise tapilmadigina dair melumat return edirik ekser zaman array-de menfi index olmadigi uchun -1 return olunur.
----
+
 ### Example Code:
 1. Functional paradigm-e uygun code numunesi:
 ```javascript
@@ -54,3 +54,6 @@ function customLinearSearch({ customArray, targetItem }) {
 // ******* functional_paradigm_end_here *******
 ```
 ---
+## Binary search: Ikili axtarish siralanmish bir array icherisinde axtarilan deyeri tapmaq uchun istifade olunan effektiv alqoritmdir. Axtarish araligini tekrar-tekrar 2-ye bolerek ishleyer. 
+---
+## Jump search: Bu alqoritm array-i bloklara ayiraraq ishleyer ve bu bloklar arasinda sichrayish ederek axtarish edir. Umumilikde boyuk data set-lerinde daha elverishli axtarishi temin edir.
